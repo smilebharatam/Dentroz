@@ -3,10 +3,10 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import {defineConfig} from 'vite';
 
-export default defineConfig(({mode}) => {
+export default defineConfig(() => {
   return {
-    // GitHub Pages serves this repo at https://smilebharatam.github.io/Dentroz/
-    base: mode === 'production' ? '/Dentroz/' : '/',
+    // Custom domain (dentroz.com) serves from site root.
+    base: '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
