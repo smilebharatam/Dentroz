@@ -1,0 +1,6 @@
+{
+  "name": "Dentroz - Dental Practice Solutions",
+  "description": "Complete dental clinic setup, equipment supply, branding, and practice growth solutions by Dentroz.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
